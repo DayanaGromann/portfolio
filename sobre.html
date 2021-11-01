@@ -1,0 +1,100 @@
+﻿<html lang="pt-br">
+<head>
+    <meta charset="utf-8">
+    <title> Sobre Dayana Gromann</title>
+    <link rel="stylesheet" type="text/css" href="css/menu.css">
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/sobre.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link href="https://fonts.googleapis.com/css2?family=Mali:ital,wght@0,300;0,700;1,300;1,700&family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+</head>
+
+<body>
+
+    <!---------------Aqui começa as configurações do menu--------------->
+
+    <input type="checkbox" id=check>
+    <label for=check>
+        <i class="material-icons abrir" style="color:magenta; font-size:60px;">menu</i>
+        <i class="material-icons fechar" style="color:magenta; display: none; font-size:60px;">close</i>
+    </label>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">INÍCIO </a></li>
+            <li><a href="sobre.html">SOBRE</a></li>
+            <li><a href="portfolio.html">PORTFÓLIO</a></li>
+            <li><a href="contato.html">CONTATO</a></li>
+        </ul>
+
+    </nav>
+    <!-----------------------------------Fim do menu-------------------------------------------------->
+
+
+
+    <div class="cabecalho">
+        <img src="img/foto.jpg" />
+        <h1> Dayana Gromann</h1>
+        <h3> Desenvolvedora web em construção...</h3>
+    </div>
+
+    <div style="height: 20vh;"></div>
+
+    <div class="introducao">
+        <h2>Cursos</h2>
+        <ul>
+            <li>Bacharel em engenharia de software - Unicesumar</li>
+            <li>Técnico em programação de jogos digitais - SENAC</li>
+            <li>Desenvolvimento web moderno- Coder</li>
+            <li>Design Gráfico - Imagine School</li>
+            <li>Web design - Imagine School</li>
+            <li>Marketing digital - Imagine School</li>
+        </ul>
+        <br />
+        <hr />
+        <br />
+        <h2>Habilidades</h2>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Javascript</li>
+            <li>Node.js</li>
+            <li>MySql</li>
+            <li>Photoshop</li>
+            <li>Ilustrator</li>
+
+        </ul>
+
+    <br />
+    <hr />
+    <br />
+
+        <h2>Idiomas</h2>
+        <ul>
+            <li>Português </li>
+            <li>Inglês</li>
+            <li>Espanhol</li>
+        </ul>
+    </div>
+    
+    
+
+    <script>
+        const abrir = document.querySelector('.abrir');
+        const fechar = document.querySelector('.fechar');
+
+        document.getElementById('check').onclick = function () {
+
+            if (this.checked) {
+                abrir.style.display = "none";
+                fechar.style.display = "block";
+            } else {
+                abrir.style.display = "block";
+                fechar.style.display = "none";
+            }
+        };
+    </script>
+</body>
+
+</html>

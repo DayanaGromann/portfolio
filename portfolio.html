@@ -1,0 +1,126 @@
+﻿<html lang="pt-br">
+<head>
+    <meta charset="utf-8">
+    <title> Dayana Gromann | Portfólio | websites</title>
+    <link rel="stylesheet" type="text/css" href="css/menu.css">
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/portfolio.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link href="https://fonts.googleapis.com/css2?family=Mali:ital,wght@0,300;0,700;1,300;1,700&family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+</head>
+
+<body>
+
+
+
+
+    <!---------------------------------Início do menu-------------------------------------------------->
+
+    <input type="checkbox" id=check>
+    <label for=check>
+        <i class="material-icons abrir" style="color:magenta; font-size:60px;">menu</i>
+        <i class="material-icons fechar" style="color:magenta; display: none; font-size:60px;">close</i>
+    </label>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">INÍCIO </a></li>
+            <li><a href="sobre.html">SOBRE</a></li>
+            <li><a href="portfolio.html">PORTFÓLIO</a></li>
+            <li><a href="contato.html">CONTATO</a></li>
+        </ul>
+
+    </nav>
+    <!-----------------------------------Fim do menu-------------------------------------------------->
+
+
+
+
+
+
+
+    <div class="conteudo">
+        <h1>Portfólio</h1>
+        <br />
+        <br />
+        <!--Link das tabs-->
+
+        <div class="abas">
+            <button class="abaLink" onclick="abrePortfolio(event, 'sites')" id="defaultOpen">SITES</button>
+            <button class="abaLink" onclick="abrePortfolio(event, 'jogos')">JOGOS</button>
+        </div>
+
+
+
+
+<!----------------------------------------------sites------------------------------------------------------------->
+        <div id="sites" class="conteudoAba">
+
+
+            <div class="bloco">
+                <a href="conteudo.html">
+                    <img src="img/site1.png" alt="" />
+                    <div class="overlay">
+
+                        <p>
+                            <b>Casal Adventure</b><br />
+                            Blog pessoal relatando meus passeios com o namorado.
+                        </p>
+                    </div>
+                </a>
+            </div>
+
+            <div class="bloco">
+                <a href="conteudo.html">
+                    <img src="img/site2.png" alt="" />
+                    <div class="overlay">
+                        <p>
+                            <b>Boburguer</b><br />
+                            Site feito para a hamburgueria de um amigo.
+                        </p>
+                    </div>
+                </a>
+            </div>
+
+            <div class="bloco">
+                <a href="conteudo.html">
+                    <img src="img/site3.png" alt="" />
+                    <div class="overlay">
+                        <p>
+                            <b>Manga rosa sucos</b><br />
+                            site feito para a minha lanchonete
+                        </p>
+                    </div>
+                </a>
+            </div>
+
+
+
+        </div>
+
+
+
+
+
+
+<!--------------------------------------------------jogos------------------------------------------------------------->
+        <div id="jogos" class="conteudoAba">
+            <h3>Jogos</h3>
+            <p>Ops...Ainda não postei nada aqui. Em breve trarei alguns joguinho em javascript... ;)</p>
+        </div>
+
+    </div>
+
+
+
+
+
+
+        <!-------------------------------------Links JS externo----------------------------------------------->
+
+        <script src="js/menu.js"></script>
+        <script src="js/portfolio.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,48 @@
+﻿<html lang="pt-br">
+<head>
+    <meta charset="utf-8">
+    <title> Dayana Gromann</title>
+    <link rel="stylesheet" type="text/css" href="css/menu.css">
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Mali:ital,wght@0,300;0,700;1,300;1,700&family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+</head>
+    
+<body>
+
+    <!---------------Início do menu--------------->
+
+    <input type="checkbox" id=check> <!--cria um checkbox-->
+    <label for=check>
+        <!--relaciona a imagem ao checkbox-->
+        <i class="material-icons abrir" style="color:magenta; font-size:60px;">menu</i>
+        <i class="material-icons fechar" style="color:magenta; display: none; font-size:60px;">close</i>
+    </label>
+   
+    <nav>
+        <ul>
+            <li><a href="index.html">INÍCIO </a></li>
+            <li><a href="sobre.html">SOBRE</a></li>
+            <li><a href="portfolio.html">PORTFÓLIO</a></li>
+            <li><a href="contato.html">CONTATO</a></li>
+        </ul>
+
+    </nav>
+    <!------------------Fim do menu----------------->
+
+
+    <canvas id="canvas">
+        <p>
+            Ops...Seu navegador não aceita este tipo de conteúdo.<br />
+            Tente em outro navegador!
+        </p> 
+    </canvas>
+
+    <script src="js/canvas.js"></script>
+    <script src="js/menu.js"></script>
+</body>
+
+</html>
